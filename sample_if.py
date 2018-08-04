@@ -1,5 +1,8 @@
 def test_if():
     d = {1: 2}
+    print("d: {}".format(d))
+    if True:
+        pass
     if not 2 in d:
         print("not 2 in d")
 
